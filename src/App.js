@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './containers/Header';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
     </div>
   );
 }
 
 export default App;
+
+/*
+Your users should be able to:
+
+View the optimal layout for the site depending on their device's screen size
+See hover states for all interactive elements on the page
+See error states when the contact form is submitted if:
+The Name and/or Email Address fields are empty
+The Email Address is not formatted correctly
+Bonus: See a live countdown timer that ticks down every second
+Bonus: See a custom-styled select form control in the sign-up form
+
+Get Started
+  -background pattern
+  -logo
+  -illustrations
+
+  -header
+  -paragraph
+  -button
+
+-subscription
+  -sub cards
+    -title
+    -price
+    -description
+    -button
+
+-footer
+  -bg pattern
+  -header
+  -countdown
+    -countdown cards
+  -button
+
+*/
